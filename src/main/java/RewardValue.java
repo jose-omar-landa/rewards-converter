@@ -31,4 +31,8 @@ public class RewardValue {
         return convertCashToMiles(this.cashValue);
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/reward-value
