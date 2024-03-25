@@ -12,7 +12,7 @@ public class RewardValue {
     }
 
     // method to convert cash value into a miles value
-    private static int convertCashToMiles(double cashValue){
+    private static int convertCashToMiles(double cashValue) {
         return (int) (cashValue / conversionRate);
     }
 
@@ -27,12 +27,7 @@ public class RewardValue {
     }
 
     //returns the miles value
-    public int getMilesValue(){
+    public int getMilesValue() {
         return convertCashToMiles(this.cashValue);
     }
-
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/reward-value
